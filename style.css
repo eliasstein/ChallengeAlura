@@ -1,0 +1,54 @@
+@import url('https://fonts.googleapis.com/css2?family=Copse&family=Playpen+Sans&display=swap');
+
+body{
+    background-color: #F3F5FC;
+}
+main{
+    display: flex;
+}
+.logo{
+    display: inline;
+}
+h1{
+    display: inline;
+    font-size: 28px;
+    text-align: center;
+    font-family: "Copse", serif;
+    font-weight: 400;
+    font-style: italic;
+}
+#text-area, #text-area-crypted{
+    margin-top: 50px;
+    border: none;
+    border-radius: 10px;
+    font-family: "Copse", serif;
+    font-weight: 400;
+    font-style: normal;
+
+}
+#text-area, .buttons-input, #text-area-crypted, .buttons-output{
+    resize: none;
+    margin-left: 200px;
+    font-size: 32px;
+}
+#text-area-crypted, .buttons-output{
+    margin-left: 40px;
+}
+#btn-copy,#btn-encrypt,#btn-decrypt{
+    color:whitesmoke;
+    font-size: 28px;
+    background-color: #1372e5;
+    box-shadow: 0 5px #666;
+    border: none;
+    border-radius: 10px;
+    padding: 20px;
+    transition: 0.5s    
+}
+#btn-copy:hover,#btn-encrypt:hover,#btn-decrypt:hover{
+    background-color: #0b4081;
+  }
+#btn-copy:active,#btn-encrypt:active,#btn-decrypt:active {
+    background-color: #3e8e41;
+    box-shadow: 0 5px #666;
+    transform: translateY(4px);
+  }
